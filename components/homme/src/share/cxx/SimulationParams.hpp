@@ -59,6 +59,10 @@ struct SimulationParams
   int       nsplit = 0;
   int       nsplit_iteration;
   double    rearth; //propagated then to Geometry and SphereOps
+  bool      pgrad_correction;
+
+  double    dp3d_thresh;
+  double    vtheta_thresh;
 
   // Use this member to check whether the struct has been initialized
   bool      params_set = false;
@@ -98,6 +102,8 @@ inline void SimulationParams::print (std::ostream& out) {
   out << "   prescribed_wind: " << (prescribed_wind ? "yes" : "no") << "\n";
   out << "   nsplit: " << nsplit << "\n";
   out << "   rearth: " << rearth << "\n";
+  out << "   dp3d_thresh: " << dp3d_thresh << "\n";
+  out << "   vtheta_thresh: " << vtheta_thresh << "\n";
   out << "\n**********************************************************\n";
 }
 
