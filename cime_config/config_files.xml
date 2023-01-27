@@ -174,6 +174,7 @@
       <value component="sice"                        >$SRCROOT/components/stub_comps/sice</value>
       <value component="xice"                        >$SRCROOT/components/xcpl_comps/xice</value>
       <value component="mpassi"                      >$SRCROOT/components/mpas-seaice</value>
+      <value component="demsi"                       >$SRCROOT/components/demsi</value>
       <value component="cice"                        >$SRCROOT/components/cice</value>
     </values>
     <group>case_comps</group>
@@ -267,6 +268,7 @@
       <value component="mpaso"    >$COMP_ROOT_DIR_OCN/cime_config/config_compsets.xml</value>
       <value component="mali"     >$COMP_ROOT_DIR_GLC/cime_config/config_compsets.xml</value>
       <value component="mpassi"   >$COMP_ROOT_DIR_ICE/cime_config/config_compsets.xml</value>
+      <value component="demsi"    >$COMP_ROOT_DIR_ICE/cime_config/config_compsets.xml</value>
       <value component="mosart"   >$COMP_ROOT_DIR_ROF/cime_config/config_compsets.xml</value>
       <value component="ww3"      >$COMP_ROOT_DIR_WAV/cime_config/config_compsets.xml</value>
     </values>
@@ -288,6 +290,7 @@
       <value component="mpaso"    >$SRCROOT/components/mpas-ocean/cime_config/config_pes.xml</value>
       <value component="mali"     >$SRCROOT/components/mpas-albany-landice/cime_config/config_pes.xml</value>
       <value component="mpassi"   >$SRCROOT/components/mpas-seaice/cime_config/config_pes.xml</value>
+      <value component="demsi"    >$SRCROOT/components/demsi/cime_config/config_pes.xml</value>
       <value component="ww3"      >$SRCROOT/components/ww3/cime_config/config_pes.xml</value>
     </values>
     <group>case_last</group>

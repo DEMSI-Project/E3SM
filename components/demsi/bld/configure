@@ -1,0 +1,26 @@
+#!/usr/bin/env python3
+
+def write_filepath():
+
+    filepathName = "Filepath"
+
+    filepath = open(filepathName,"w")
+
+    filepath.write("/lcrc/group/e3sm/ac.akturner/scratch/anvil/dtestdemsi/bld/cmake-bld/demsi/DEMSI/model/build/src-install/\n")
+    filepath.write("/lcrc/group/e3sm/ac.akturner/scratch/anvil/dtestdemsi/bld/cmake-bld/demsi/DEMSI/model/build/LAMMPS-install/\n")
+    filepath.write("/lcrc/group/e3sm/ac.akturner/scratch/anvil/dtestdemsi/bld/cmake-bld/demsi/DEMSI/model/build/petsc-install/\n")
+    filepath.write("/lcrc/group/e3sm/ac.akturner/scratch/anvil/dtestdemsi/bld/cmake-bld/demsi/DEMSI/model/build/permon-install/\n")
+    filepath.write("/lcrc/group/e3sm/ac.akturner/scratch/anvil/dtestdemsi/bld/cmake-bld/demsi/DEMSI/model/build/Icepack-install/\n")
+    filepath.write("/lcrc/group/e3sm/ac.akturner/scratch/anvil/dtestdemsi/bld/cmake-bld/demsi/DEMSI/model/build/compadre-install/\n")
+    filepath.write("/lcrc/group/e3sm/ac.akturner/scratch/anvil/dtestdemsi/bld/cmake-bld/demsi/DEMSI/model/build/tinyxml2-install/\n")
+
+    filepath.close()
+
+###############################################################################
+def _main_func():
+###############################################################################
+
+    write_filepath()
+
+if __name__ == "__main__":
+    _main_func()
